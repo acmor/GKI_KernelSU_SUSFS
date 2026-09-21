@@ -16,7 +16,7 @@ on:
           - Action
           - Pre-Release
           - Release
-        default: Pre-Release
+        default: Action
       use_cache:
         description: "Use ccache/bazel cache (restore/save)"
         type: boolean
